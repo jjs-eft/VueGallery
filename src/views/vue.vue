@@ -2,16 +2,20 @@
   <div class="vue">
     <h2>Vue에 대한 학습 및 정리</h2>
     <div class="main">
-      <ul class="vue_items">
-        <li class="vue_item">test1</li>
-        <li class="vue_item"></li>
-        <li class="vue_item"></li>
-        <li class="vue_item"></li>
-        <li class="vue_item"></li>
-      </ul>
+      <vuecont />
     </div>
   </div>
 </template>
+
+<script>
+import vuecont from "@/components/vuecont";
+export default {
+  name: "vue",
+  components: {
+    vuecont,
+  },
+};
+</script>
 
 <style scoped>
 .vue {

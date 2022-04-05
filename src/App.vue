@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>Vue Gallery</h1>
-
     <div id="nav"><router-link to="/">Home</router-link></div>
     <div id="nav_2">
       <router-link to="/htmlcss">HTML/CSS</router-link> |
@@ -11,6 +10,11 @@
     <router-view />
   </div>
 </template>
+<script>
+export default {
+  name: "app",
+};
+</script>
 
 <style>
 h1 {

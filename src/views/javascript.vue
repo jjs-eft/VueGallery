@@ -2,16 +2,20 @@
   <div class="javascript">
     <h2>JavaScript에 대한 학습 및 정리</h2>
     <div class="main">
-      <ul class="javascript_items">
-        <li class="javascript_item">test1</li>
-        <li class="javascript_item"></li>
-        <li class="javascript_item"></li>
-        <li class="javascript_item"></li>
-        <li class="javascript_item"></li>
-      </ul>
+      <javascriptcont />
     </div>
   </div>
 </template>
+
+<script>
+import javascriptcont from "@/components/javascriptcont";
+export default {
+  name: "javascript",
+  components: {
+    javascriptcont,
+  },
+};
+</script>
 
 <style scoped>
 .javascript {

@@ -2,16 +2,20 @@
   <div class="htmlcss">
     <h2>HTML/CSS에 대한 학습 및 정리</h2>
     <div class="main">
-      <ul class="htmlcss_items">
-        <li class="htmlcss_item">test1</li>
-        <li class="htmlcss_item"></li>
-        <li class="htmlcss_item"></li>
-        <li class="htmlcss_item"></li>
-        <li class="htmlcss_item"></li>
-      </ul>
+      <htmlcsscont />
     </div>
   </div>
 </template>
+
+<script>
+import htmlcsscont from "@/components/htmlcsscont";
+export default {
+  name: "htmlcss",
+  components: {
+    htmlcsscont,
+  },
+};
+</script>
 
 <style scoped>
 .htmlcss {

@@ -1,7 +1,6 @@
 <template>
   <div class="main">
     <h2>HTML, CSS, JavaScript, Vue에 대한 학습 및 정리</h2>
-
     <div class="home_item">
       <div class="lately">
         <div class="lately_title">최근 학습한 내용</div>
